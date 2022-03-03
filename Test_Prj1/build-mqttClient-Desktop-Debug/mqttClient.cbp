@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mqttClient"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\Tools\;CMake Files\..\..\..\..\Qt\Tools\QtCreator\;CMake Files\..\..\..\..\Qt\Tools\QtCreator\share\;CMake Files\..\..\..\..\Qt\Tools\QtCreator\share\qtcreator\;CMake Files\..\..\..\..\Qt\Tools\QtCreator\share\qtcreator\package-manager\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqttClient">
+				<Option output="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/libmqttClient.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMQTTCLIENT_LIBRARY"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/mqttClient"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/mqttClient_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 mqttClient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqttClient/fast">
+				<Option output="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/libmqttClient.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMQTTCLIENT_LIBRARY"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/mqttClient"/>
+					<Add directory="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/mqttClient_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 mqttClient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqttClient_autogen">
+				<Option working_dir="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 mqttClient_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/build-mqttClient-Desktop-Debug/mqttClient_autogen/mocs_compilation.cpp">
+			<Option target="mqttClient"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/mqttClient_global.h">
+			<Option target="mqttClient"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/mqttclient.cpp">
+			<Option target="mqttClient"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/mqttclient.h">
+			<Option target="mqttClient"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Tools\QtCreator\share\qtcreator\package-manager\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ashraful/office_work/qt/Test_Prj1/mqttClient/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

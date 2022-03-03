@@ -1,0 +1,12 @@
+#ifndef MQTTCLIENT_GLOBAL_H
+#define MQTTCLIENT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(MQTTCLIENT_LIBRARY)
+#  define MQTTCLIENT_EXPORT Q_DECL_EXPORT
+#else
+#  define MQTTCLIENT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // MQTTCLIENT_GLOBAL_H
